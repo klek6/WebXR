@@ -5,14 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebAR</title>
+    <link rel="stylesheet" href="main.css">
 </head>
-<body style="text-align: center" ;>
-    <h1 style="font-family: Arial, Helvetica, sans-serif">WebAR Filter</h1>
-    <p style="font-family: Arial, Helvetica, sans-serif">Click on the icon below to activate</p>
-    <div>
-        <a rel="ar" href="Lamb_Rib_Steak.usdz">
-            <img src="webar-icon.jpeg">
-        </a>
+
+<body style="text-align: center">
+    <div class="desktop-content">
+        <p>This content is for <strong>desktop</strong>.</p>
+        <img src="Pictures/qr-code.png" alt="QR code to this page" width="500" height="500">
+    </div>
+
+    <div class="mobile-content">
+        <!-- Pizza Block 1 -->
+        <div class="block">
+            <img src="Pictures/Lamb_Rib_Steak.png" alt="Pizza 1">
+            <h2>Pizza Name 1</h2>
+            <p>Ingredients: Tomato, Cheese, Olives</p>
+            <div class="split-line"></div>
+            <p>Allergens: <img src="Pictures/allergen1.jpeg" alt="Allergen 1"> <img src="Pictures/allergen2.jpeg" alt="Allergen 2"></p>
+            <button onclick="location.href='3D_Objects/Lamb_Rib_Steak.usdz'">View in AR</button>
+        </div>
+
+        <!-- Pizza Block 2 -->
+        <div class="block">
+            <img src="Pictures/Lamb_Rib_Steak.png" alt="Pizza 2">
+            <h2>Pizza Name 2</h2>
+            <p>Ingredients: Tomato, Cheese, Pepperoni</p>
+            <div class="split-line"></div>
+            <p>Allergens: <img src="Pictures/allergen1.jpeg" alt="Allergen 1"></p>
+            <button onclick="location.href='3D_Objects/Lamb_Rib_Steak.usdz'">View in AR</button>
+        </div>
+
+        <!-- Pizza Block 3 -->
+        <div class="block">
+            <img src="Pictures/Lamb_Rib_Steak.png" alt="Pizza 3">
+            <h2>Pizza Name 3</h2>
+            <p>Ingredients: Tomato, Cheese, Mushrooms</p>
+            <div class="split-line"></div>
+            <p>Allergens: None</p>
+            <button onclick="location.href='3D_Objects/Lamb_Rib_Steak.usdz'">View in AR</button>
+        </div>
     </div>
 </body>
 </html>
